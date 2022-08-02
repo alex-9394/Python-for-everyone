@@ -1,0 +1,6 @@
+hours = input('Enter hours')
+rate = input('Enter rate')
+pay = float(hours) * float(rate)
+pay1 = round(pay)
+print('You earned', pay1, 'euros this week')
+input('Press ENTER to exit')
